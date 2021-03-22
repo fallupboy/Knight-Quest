@@ -1,2 +1,2 @@
 # Knight-Quest
-2D Platformer Game made in Unity game engine with C# 
+This is only Demo version of the game. The main tasks were to make own AI for enemies and main mechanics like movement, jumping, attacking and others...
