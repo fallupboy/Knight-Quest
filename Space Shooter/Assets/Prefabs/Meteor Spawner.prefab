@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1369055409175682910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1369055409175682909}
+  - component: {fileID: 1369055409175682908}
+  - component: {fileID: 1369055409175682913}
+  m_Layer: 0
+  m_Name: Meteor Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1369055409175682909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369055409175682910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 9.73, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1369055409175682908
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369055409175682910}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1369055409175682913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369055409175682910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e2ba897528a464dabd32b45ae74732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minTimeBetweenSpawn: 1
+  maxTimeBetweenSpawn: 6
+  meteorObject:
+  - {fileID: 4383038086031990729, guid: 56c7932c1133e444eab4fa90c9112e96, type: 3}
+  - {fileID: 6271480803299240350, guid: 6b4de3dc554f1b646806160a95992827, type: 3}
+  - {fileID: 3923777749338480577, guid: 4003b87b0bb3d3541b7ad855b72a1f37, type: 3}
+  - {fileID: 353773405529889614, guid: 7527dc47415feca4fa2bf38e2d041e03, type: 3}
+  - {fileID: 2690128177211801646, guid: 9698eeaad12d6ab4c917205b4cc70a8c, type: 3}
+  - {fileID: 1850446594675103185, guid: 7077b34615468f1488fade0c7f9093e2, type: 3}
+  - {fileID: 1229992976193889187, guid: 8b4e84dda2bd7284bba1345865fc09ca, type: 3}
+  - {fileID: 4127224689466184217, guid: 9ad8eb61400613f4783ea70fbc244c8d, type: 3}
+  meteorSpeed: 5
+  meteorPowerupDrop:
+  - {fileID: 3317238656344776202, guid: 6cfee69452ab58242bd2b8f316a21862, type: 3}
+  - {fileID: 6336146486243765507, guid: 9678bb55b3238bc4dbc6f3f5dc39281d, type: 3}
+  - {fileID: 4640966583325068143, guid: 7322a0b8505a9894381c3a2616c6eef2, type: 3}
