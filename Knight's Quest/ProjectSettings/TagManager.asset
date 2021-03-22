@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Hazards
+  - Crystal
+  - Coin
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Background
+  - Player
+  - Enemy
+  - Hazards
+  - Interactables
+  - Decorations
+  - Front Background
+  - Landscape
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2705310553
+    locked: 0
+  - name: Landscape
+    uniqueID: 3571236953
+    locked: 0
+  - name: Particles
+    uniqueID: 878137255
+    locked: 0
+  - name: Front Background
+    uniqueID: 329173071
+    locked: 0
+  - name: Decorations
+    uniqueID: 1580657665
+    locked: 0
+  - name: Enemy
+    uniqueID: 253274253
+    locked: 0
+  - name: Interactables
+    uniqueID: 3981086933
+    locked: 0
+  - name: Player
+    uniqueID: 3524134567
+    locked: 0
+  - name: Hazards
+    uniqueID: 1893227699
+    locked: 0
+  - name: Foreground
+    uniqueID: 1737348901
+    locked: 0
+  - name: UI
+    uniqueID: 2277476299
+    locked: 0
